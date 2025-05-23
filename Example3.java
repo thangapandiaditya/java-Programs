@@ -7,7 +7,7 @@ public class Example3  {
         int rsnum = sc.nextInt();
         System.out.print("Input the ending number of the range: ");
         int renum = sc.nextInt();
-        int random_num = rsnum + (int)(Math.random() * ((renum - rsnum) + 1));
+        int random_num = (int) (rsnum +(Math.random() * ((renum - rsnum) + 1)));
         System.out.println(random_num);
     }
 }
