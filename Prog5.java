@@ -15,7 +15,7 @@ class Geeks {
         System.out.println(a!=b);
         System.out.println(a>b && b<=c);
         System.out.println(a>b || b<=c);
-//
+
 //        // using logical AND to verify
 //        // two constraints
 //        if ((a < b) && (b == c)) {
