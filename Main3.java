@@ -1,10 +1,12 @@
 public class Main3 {
     public static void main(String[] args) {
+        System.out.println("The details about the First Car:");
         Car c=new Car("Rolls Royce",2025,"Red",80000000);
         System.out.println("The name of the model:"+c.getModel());
         System.out.println("Launched year:"+c.getYear());
         System.out.println("The car color:"+c.getColor());
         System.out.println("The price of the car:"+c.getPrice());
+        System.out.println();
 
         System.out.println("The details about the second car:");
         Car c1=new Car("BMW",2025,"black",6000000);
