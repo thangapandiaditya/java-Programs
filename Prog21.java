@@ -1,4 +1,4 @@
-/* java program to input a number between 1 and 9999 and dispay the number in the word format
+/* java program to input a number between 1 and 9999 and display the number in the word format
 test case:
 input :153
 output : one five three
