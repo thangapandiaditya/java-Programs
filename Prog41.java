@@ -6,10 +6,15 @@ public class Prog41 {
         System.out.print("Enter the value of N:");
         int n=sc.nextInt();
         int sum=0;
-        for(int i=1;i<=n;i++){
-            System.out.print("Enter the value "+(i)+":");
-            int a=sc.nextInt();
-            sum=sum+a;
+        if(n>0) {
+            for (int i = 1; i <= n; i++) {
+                System.out.print("Enter the value " + (i) + ":");
+                int a = sc.nextInt();
+                sum = sum + a;
+            }
+        }
+        else{
+            System.out.println("N value must not be less than zero");
         }
         double avg;
         System.out.println(sum);
