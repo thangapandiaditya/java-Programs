@@ -12,14 +12,15 @@ public class Prog41 {
                 int a = sc.nextInt();
                 sum = sum + a;
             }
+            double avg;
+            System.out.println(sum);
+            avg=(float)sum/n;
+            System.out.println("The Average value:"+avg);
+
         }
         else{
             System.out.println("N value must not be less than zero");
         }
-        double avg;
-        System.out.println(sum);
-        avg=(float)sum/n;
-        System.out.println("The Average value:"+avg);
 
     }
 }
